@@ -1,0 +1,64 @@
+#heading{
+  font-family: roboto, sans-serif;
+  font-size: 3rem;
+  color: deeppink;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body {
+  /* Black gradient from dark gray to black */
+  background: linear-gradient(180deg, #222222, #000000);
+  color: white; /* Make text readable on dark background */
+  font-family: roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.content-section {
+  padding: 20px;
+  border: 2px solid #333;  /* dark border */
+  margin: 20px 0;          /* space above and below each section */
+  border-radius: 8px;      /* rounded corners */
+  background-color: #f9f9f9; /* subtle background */
+  max-width: 800px;          /*limits the width of the borders*/
+}
+
+.content-section h2{
+  color: #333;
+}
+
+.content-section p{
+  color: #333;
+}
+
+nav {
+  background-color: #333;      /* dark background for nav */
+  padding: 10px 20px;          /* some padding inside nav */
+  border-radius: 8px;          /* rounded corners*/
+  max-width: 260px;            /* stop box from extending*/
+}
+
+nav ul {
+  list-style: none;            /* remove bullets */
+  display: flex;               /* horizontal menu */
+  gap: 15px;                   /* spacing between items */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;                 /* white text */
+  text-decoration: none;       /* no underline */
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;      /* hover effect */
+}
